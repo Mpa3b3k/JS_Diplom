@@ -29,3 +29,11 @@ class Profile {
 
   }
 }
+
+function course() {
+	
+}
+
+function main() {
+	
+}
