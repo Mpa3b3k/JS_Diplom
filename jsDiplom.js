@@ -9,23 +9,23 @@ class Profile {
     this.pass = pass;
   }
 
-  adding() {
+  adding(name, real, pass) {
 
   }
 
-  auth() {
+  auth(name, real, pass) {
 
   }
 
-  pay() {
+  pay(money) {
 
   }
 
-  conv() {
+  conv(badMoney) {
 
   }
 
-  trans() {
+  trans(other) {
 
-	}
+  }
 }
