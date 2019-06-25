@@ -1,19 +1,28 @@
 "use strict";
 
+let user = {
+	name;
+	real;
+	pass;
+}
 
 class Profile {
 	
-	constructor(name, real, pass) {
+  constructor(user) {
     this.name = name;
     this.real = real;
     this.pass = pass;
   }
 
-  adding(name, real, pass) {
+  adding(name, real, pass, callback) {
+
+  	callback();
 
   }
 
-  auth(name, real, pass) {
+  auth(name, real, pass, callback) {
+
+  	callback();
 
   }
 
@@ -35,5 +44,5 @@ function course() {
 }
 
 function main() {
-	
+
 }
