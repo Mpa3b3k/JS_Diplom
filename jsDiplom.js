@@ -1,18 +1,16 @@
 "use strict";
 
-let user = {
-	name;
-	real;
-	pass;
-}
 
 class Profile {
 	
-  constructor(user) {
-    this.name = name;
-    this.real = real;
-    this.pass = pass;
-  }
+  constructor({ username, name: { firstName, lastName }, pass }) {
+		this.username = username;
+		this.name = {
+				firstName,
+				lastName,
+		};
+		this.pass = pass;
+}
 
   adding(name, real, pass, callback) {
 
